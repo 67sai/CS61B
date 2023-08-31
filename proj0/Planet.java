@@ -1,12 +1,15 @@
 public class Planet {
-	double xxPos;
-	double yyPos;
-	double xxVel;
-	double yyVel;
-	double mass;
+	/**
+	 * 关键字 "public" 表示这些变量是公共的，即可以从任何地方访问。它们对于其他类、方法和代码块都是可见的。
+	 */
+	public double xxPos;
+	public double yyPos;
+	public double xxVel;
+	public double yyVel;
+	public double mass;
 	/* The name of the file that corresponds to the image that depicts the body (for example, jupiter.gif) */
 	String imgFileName;
-	double N=1.0e-11;
+	public double N=1.0e-11;
 
 	/**
 	 * the first constructor
