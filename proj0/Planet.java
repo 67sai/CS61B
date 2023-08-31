@@ -8,8 +8,8 @@ public class Planet {
 	public double yyVel;
 	public double mass;
 	/* The name of the file that corresponds to the image that depicts the body (for example, jupiter.gif) */
-	String imgFileName;
-	public double N=1.0e-11;
+	public String imgFileName;
+	private double N=1.0e-11;
 
 	/**
 	 * the first constructor
