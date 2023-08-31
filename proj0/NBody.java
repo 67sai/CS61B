@@ -126,12 +126,12 @@ public class NBody{
 			StdDraw.pause(10);
 		}
 
-		StdOut.printf("%d\n", aP.length);
-		StdOut.printf("%.2e\n", r);
-		for (int i = 0; i < aP.length; i++) {
+		StdOut.printf("%d\n", ps.length);
+		StdOut.printf("%.2e\n", ra);
+		for (int i = 0; i < ps.length; i++) {
 			StdOut.printf("%11.4e %11.4e %11.4e %11.4e %11.4e %12s\n",
-					aP[i].xxPos, aP[i].yyPos,aP[i].xxVel,
-					aP[i].yyVel, aP[i].mass, aP[i].imgFileName);
+					ps[i].xxPos, ps[i].yyPos,ps[i].xxVel,
+					ps[i].yyVel, ps[i].mass, ps[i].imgFileName);
 		}
 	}
 }
