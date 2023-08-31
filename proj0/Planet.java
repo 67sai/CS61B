@@ -64,18 +64,18 @@ public class Planet {
 	 * FAIL: calcForceExertedByX(): Expected 133.4 and you gave -133.4
 	 */
 	public double calcForceExertedByX(Planet p){
-		double dx=this.xxPos-p.xxPos;
+		double dx=p.xxPos-this.xxPos;
 		double fx=this.calcForceExertedBy(p)*dx/this.calcDistance(p);
-		return Math.abs(fx);
+		return fx;
 	}
 
 	/**
 	 *
 	 */
 	public double calcForceExertedByY(Planet p) {
-		double dy=this.yyPos-p.yyPos;
+		double dy=p.yyPos-this.yyPos;
 		double fy=this.calcForceExertedBy(p)*dy/this.calcDistance(p);
-		return Math.abs(fy);
+		return fy;
 	}
 
 	/**
