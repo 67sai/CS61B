@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7923134274602202",
+            "id": "cdfe65849fb3808b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "2.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -143,13 +143,28 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "7923134274602202",
+  "active": "cdfe65849fb3808b",
   "lastOpenFiles": [
+    "Pasted image 20230904091711.png",
+    "Pasted image 20230904090518.png",
     "1.md",
     "2.md",
+    "基于多目标优化的网络社区发现方法.md",
+    "2023-09-04.md",
+    "temp.md",
+    "Pasted image 20230902163311.png",
+    "Pasted image 20230902090559.png",
+    "Pasted image 20230901172909.png",
+    "Pasted image 20230831222915.png",
+    "Pasted image 20230831222658.png",
+    "Pasted image 20230831222514.png",
+    "Pasted image 20230831221313.png",
+    "Pasted image 20230831220643.png",
+    "Pasted image 20230831220555.png",
     "1.2.txt"
   ]
 }

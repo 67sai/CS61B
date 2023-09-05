@@ -1,1 +1,8 @@
-{}
+{
+  "obsidian-electron-window-tweaker:ewt-toggle-on-top": [
+    {
+      "modifiers": [],
+      "key": "F8"
+    }
+  ]
+}
